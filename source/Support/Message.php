@@ -61,7 +61,7 @@ class Message {
      * @param string $text
      * @return Message
      */
-     public function after(string $text) : Message {
+        public function after(string $text) : Message {
         $this->after = $text;
         return $this;        
     }

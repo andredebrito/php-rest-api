@@ -13,11 +13,11 @@ use DateTime;
  */
 class TokenModel {
 
-   /**
-    * Check if the token is valid
-    * @param string $token
-    * @return bool
-    */
+    /**
+     * Check if the token is valid
+     * @param string $token
+     * @return bool
+     */
     public function validateToken(string $token): bool {
         $findToken = (new UserTokenModel())->findByToken($token);
         if (!$findToken) {

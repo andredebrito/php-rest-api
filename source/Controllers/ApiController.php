@@ -93,8 +93,7 @@ class ApiController extends Controller {
      */
     protected function validateToken(): bool {
         $this->token = (isset($this->headers["Token"]) ?
-                filter_var($this->headers["Token"], FILTER_SANITIZE_STRIPPED) :
-                (isset($this->headers["token"]) ? filter_var($this->headers["token"], FILTER_SANITIZE_STRIPPED) : ""));
+                filter_var($this->headers["Token"], FILTER_SANITIZE_STRIPPED) : (isset($this->headers["token"]) ? filter_var($this->headers["token"], FILTER_SANITIZE_STRIPPED) : ""));
 
         if (!$this->token) {
             $this->call(

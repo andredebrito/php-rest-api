@@ -33,7 +33,7 @@ class UserTokenModel extends Model {
      * @param string $columns
      * @return \Source\Models\UserTokenModel|null
      */
-    public function findByToken(string $token, string $columns= "*"): ?UserTokenModel {
+    public function findByToken(string $token, string $columns = "*"): ?UserTokenModel {
         $find = $this->find("token = :token", "token={$token}", $columns);
         return $find->fetch();
     }
