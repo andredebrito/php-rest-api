@@ -1,4 +1,8 @@
 # Projeto API Rest PHP
+
+[![Build](https://img.shields.io/scrutinizer/build/g/andredebrito/php-rest-api.svg?style=flat-square)](https://scrutinizer-ci.com/g/andredebrito/php-rest-api)
+[![Quality Score](https://img.shields.io/scrutinizer/quality/g/andredebrito/php-rest-api.svg?style=flat-square)](https://scrutinizer-ci.com/g/andredebrito/php-rest-api)
+
 API para aplicativo que monitora a quantidade de vezes que o usuário bebeu água. O projeto foi desenvolvido como teste para uma vaga de Desenvolvedor Backend PHP.
 
 ## Tecnlogias/Componentes utilizados
