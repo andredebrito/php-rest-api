@@ -1,0 +1,30 @@
+{
+    "name": "andredebrito/php-rest-api",
+    "description": "API PHP de teste para vaga de Desenvolvedor",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andre de Brito",
+            "email": "andredebrito1990@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Boot/Config.php",
+            "source/Boot/Helpers.php"   
+        ]
+    },
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "ext-curl": "*",      
+        "coffeecode/router": "^1.0",
+        "coffeecode/paginator": "^1.0",
+        "coffeecode/datalayer": "^1.0"
+    }
+}
