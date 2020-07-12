@@ -119,7 +119,7 @@ class UserController extends ApiController {
         }
 
         $drinkCounter = (new DrinkModel())->findByUserToday($user->id);        
-        $user->drink_couter =  ($drinkCounter ? $drinkCounter->drink_counter : 0);
+        $user->drink_couter = ($drinkCounter ? $drinkCounter->drink_counter : 0);
         $response["user"] = $user->data();
         $this->back($response);
     }
