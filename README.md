@@ -1,5 +1,5 @@
 # Projeto API Rest PHP
-API para aplicativo que monitora a quantidade de vezes que o usuário bebeu água. O projeto foi desenvolvido como teste para uma vaga para Desenvolvedor Backend PHP.
+API para aplicativo que monitora a quantidade de vezes que o usuário bebeu água. O projeto foi desenvolvido como teste para uma vaga de Desenvolvedor Backend PHP.
 
 ## Tecnlogias/Componentes utilizados
 - PHP 7.2
