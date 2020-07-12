@@ -87,4 +87,4 @@ API para aplicativo que monitora a quantidade de vezes que o usuário bebeu águ
 - **Login:** a API informa caso o usuário ou senha estejam inválidos. Só são permitidas 3 tentativas de requisição de login em um período de 5 minutos;
 - **Token de acesso:** o token de acesso tem a validade de 2 horas (é possível editar a duração em horas no arquivo Config.php);
 - **Edição e remoção de usuários:** só é possível editar ou excluir seu próprio usuário, caso tente excluir ou editar outro usuário a API retorna uma mensagem uma de erro (“Sua requisição é inválida”);
-- **Entradas e Saídas: **todas as entradas e saídas da API são no formato JSON.
+- **Entradas e Saídas:** todas as entradas e saídas da API são no formato JSON.
