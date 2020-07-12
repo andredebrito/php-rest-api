@@ -11,70 +11,70 @@ API para aplicativo que monitora a quantidade de vezes que o usuário bebeu águ
 
 ## Endpoints da API
 **POST** - **/users/** - criar um novo usuário
-**entrada**: email*, name*, password*
+- **entrada**: email*, name*, password*
 
 **POST** - **/login/** - autenticar usuário
-**entrada**: email*, password*
-**saída**: token, iduser, email, drink_couter
+- **entrada**: email*, password*
+- **saída**: token, iduser, email, drink_couter
 
 **PUT** - **/users/:userid** - editar seu próprio usuário
-**entrada**: email, name, password
-**header**: token*
+- **entrada**: email, name, password
+- **header**: token*
 
 **DELETE** - **/users/:userid** - deletar seu próprio usuário
-**header**: token*
+- **header**: token*
 
 **GET** - **/users/:iduser** - obter um usuário
-**saída**: iduser, name, drink_counter
-**header**: token*
+- **saída**: iduser, name, drink_counter
+- **header**: token*
 
 **GET** - **/users/** - obter lista de usuários
-**saída**: (array de usuários)
-**header**: token*
+- **saída**: (array de usuários)
+- **header**: token*
 
 **GET** - **/users/page/:page** - obter lista de usuários com paginação de resultados
-**saída**: (array de usuários)
-**header**: token*
+- **saída**: (array de usuários)
+- **header**: token*
 
 **GET** - **/users/page/:page/limit/:limit** - obter lista de usuários com paginação de resultados e, limitando o número de registros por página
-**saída**: (array de usuários)
-**header**: token*
+- **saída**: (array de usuários)
+- **header**: token*
 
 **POST** - **/users/:iduser/drink** - incrementar o contador de quantas vezes bebeu água
-**entrada**: drink_ml(int)
-**saída**: iduser, email, name, drink_counter
-**header**: token*
+- **entrada**: drink_ml(int)
+- **saída**: iduser, email, name, drink_counter
+- **header**: token*
 
 **PUT** - **/users/:iduser/drink/:drinkid** - atualizar contador de quantas vezes bebeu água
-**entrada**: drink_ml(int)
-**header**: token*
+- **entrada**: drink_ml(int)
+- **header**: token*
 
 **DELETE** - **/users/:iduser/drink/:drinkid** - deletar registro de quantas vezes bebeu água
-**header**: token*
+- **header**: token*
 
 **GET** - **/users/:iduser/drinks** - lista histórico de registro do usuário
-**saída**: (array de drinks)
-**header**: token*
+- **saída**: (array de drinks)
+- **header**: token*
 
 **GET** - **/users/:iduser/drinks/page/:page** - lista histórico de registro do usuário com paginação de resultados
-**saída**: (array de drinks)
-**header**: token*
+- **saída**: (array de drinks)
+- **header**: token*
 
 **GET** - **/users/:iduser/drinks/page/:page/limit/:limit** - lista histórico de registro do usuário com paginação de resultados e limitando o número de registros por página
-**saída**: (array de drinks)
-**header**: token*
+- **saída**: (array de drinks)
+- **header**: token*
 
 **GET** - **/users/:iduser/drinks/ranking** - lista ranking de usuários que beberam mais água no dia atual
-**saída**: (array de usuários)
-**header**: token*
+- **saída**: (array de usuários)
+- **header**: token*
 
 **GET** - **/users/:iduser/drinks/ranking/page/:page** - lista ranking de usuários que beberam mais água no dia atual com paginação de resultados
-**saída**: (array de usuários)
-**header**: token*
+- **saída**: (array de usuários)
+- **header**: token*
 
 **GET** - **/users/:iduser/drinks/ranking/page/:page/limit/:limit** - lista ranking de usuários que beberam mais água no dia atual com paginação de resultados e limitando o número de registros por página
-**saída**: (array de usuários)
-**header**: token*
+- **saída**: (array de usuários)
+- **header**: token*
 
 *campos obrigatórios
 
