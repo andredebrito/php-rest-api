@@ -76,7 +76,7 @@ API para aplicativo que monitora a quantidade de vezes que o usuário bebeu águ
 **saída**: (array de usuários)
 **header**: token*
 
-*****campos obrigatórios
+*campos obrigatórios
 
 ## Restrições
 - **Criação de usuários:** a API verifica se o email do usuário já está cadastrado e se o email informado esta em um formato válido. A senha precisa ter um tamanho de 8 a 40 caracteres (é possível editar o tamanho de caracteres para senha no arquivo Config.php). Antes de salvar a senha de usuário no banco de dados a API criptografa a senha usando a função password_hash;
