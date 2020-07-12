@@ -7,7 +7,7 @@ API para aplicativo que monitora a quantidade de vezes que o usuário bebeu águ
 - [coffecode/router](https://github.com/robsonvleite/router "coffecode/router") - componente para criação de rotas;
 - [coffecode/paginator](https://github.com/robsonvleite/paginator "coffecode/paginator") - componente para paginação de resultados;
 - [Composer](https://getcomposer.org/ "Composer") - gerenciador de dependências do PHP;
-- **Banco de Dados:** MariaDB 10.4.11 - o dump da estrutara esta na pasta database.
+- **Banco de Dados:** MariaDB 10.4.11 - o dump da estrutura esta na pasta database.
 
 ## Endpoints da API
 **POST** - **/users/** - criar um novo usuário
