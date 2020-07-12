@@ -15,7 +15,7 @@ API para aplicativo que monitora a quantidade de vezes que o usuário bebeu águ
 
 **POST** - **/login/** - autenticar usuário
 - **entrada**: email*, password*
-- **saída**: token, iduser, email, drink_couter
+- **saída**: token, iduser, email, drink_counter
 
 **PUT** - **/users/:userid** - editar seu próprio usuário
 - **entrada**: email, name, password
